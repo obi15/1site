@@ -1,0 +1,51 @@
+/*
+^ beging with
+$ end with 
+* contain
+[attreb*="le mot"]
+*/
+/*
+:before
+:after
+*/
+/*
+-webkit- chrome android
+-moz- firefox
+-o- opra
+-webkit-border-redius:20px 20px;
+
+
+
+*/
+.menup ul li 
+{
+list-style:none;  
+
+
+}
+.menu ul li a
+{
+ font-family: 'Nunito', sans-serif;
+ font-size:30px;
+ text-decoration:none;
+ margin-right:20px;  
+ color: black;  
+}
+.menu ul li a:hover
+{
+ color:blue; 
+}
+.menup ul li a 
+{
+ 
+font-family: 'Lilita One', cursive;
+font-size: 23px;
+text-decoration: none;
+color:black;
+margin-right:20px;  
+}
+.menup ul li a:hover
+{
+ color:white;
+ font-size:25px;  	
+}

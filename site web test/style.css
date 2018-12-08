@@ -1,0 +1,159 @@
+/*#traingle-up
+{
+	width: 0;
+	height: 0;
+border-left: 100px solid red;
+border-top: 50px solid transparent;
+border-bottom: 50px solid transparent;  
+}
+#traingle-down
+{   width: 0;
+	height: 0;
+	border-right: 100px solid red;
+border-top: 50px solid transparent;
+}
+.triangl-topleft{
+width: 0;
+height:0;
+border-top:100px solid red; ;
+
+border-right:100px solid transparent ;
+
+
+
+}
+
+.triangl-topright{
+width: 0;
+height:0;
+border-top:100px solid red; 
+border-left:100px solid transparent;
+
+}
+
+.triangl-bottomleft{
+width: 0;
+height:0;
+border-bottom:100px solid red; 
+border-right:100px solid transparent;
+
+}
+
+.triangl-bottomright{
+width: 0;
+height:0;
+border-bottom:100px solid red;; 
+border-left:100px solid transparent;
+}
+
+}
+.pac2
+{
+width:0 ;
+ height: 0;
+ border-top:100px solid red;
+ border-right:100px solid transparent;
+ border-bottom:100px solid red; 
+ border-left:100px solid red ;
+
+}
+*/
+/*.pacman
+{
+width:0px;
+height:0px;
+border-right:60px solid transparent; 
+border-left:60px solid red;
+border-top:60px solid red;
+border-bottom:60px solid red;  
+border-top-left-radius:60px;
+border-top-right-radius:60px;
+border-bottom-left-radius:60px;
+border-bottom-right-radius:60px;
+}
+.bubble
+{
+width: 120px;
+height: 80px;
+background-color: red;
+position: relative;
+border-radius:10px;  
+left:20px;
+}
+.bubble:before{
+	content:"";
+	position: absolute;
+	right: 100%;
+	top:26px;
+	width:0;
+	height:0;
+   border-top:13px solid transparent; 
+   border-bottom:13px solid transparent;
+
+   border-right: 26px solid red ; 
+}
+.brust{
+
+	background:red;
+	width:80px;
+	height: 80px;
+	position: relative;
+	text-align: center;
+}
+.brusr:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 80px;
+	background: red;
+
+
+
+}
+.brust:after{
+content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 80px;
+	background: red;
+
+}
+.brusr:before
+{transform: rotate(60deg);}
+.brust:after{transform: rotate(60deg);}
+*/
+/*.scale
+{ 
+ width: 50px;
+ height: 30px;
+ background-color: red;
+}
+.scale:hover
+{
+ width: 50px;
+ height:30px;
+background-color: green;
+transform: scale(2,3);
+}*/
+
+.skew
+{
+width: 50px;
+ height: 30px;
+ background-color: red;
+}
+}
+.skew:hover
+{  width: 50px;
+ height: 30px; 
+	background-color: green;
+transform: skew(60deg,60deg);
+
+ 
+
+}
