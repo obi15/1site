@@ -46,6 +46,32 @@ margin-right:20px;
 }
 .menup ul li a:hover
 {
- color:white;
+ color:black;
  font-size:25px;  	
 }
+.valid input
+{
+	border-color:blue; 
+}
+.icone ul {
+
+	transform: translate(-50%,50%);
+}
+.icone ul li a .fa
+{
+ position: relative;
+ transition: .5s;
+
+
+}
+.icone ul li a:hover .fa
+{
+ transform: rotateY(360deg);
+}
+
+.icone ul li a 
+{font-size:19px;}
+.icone ul li a .fa{color: #fff;}
+
+.icone ul li a .fa fa-facebook 
+{color: blue;}
