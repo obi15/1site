@@ -50,8 +50,25 @@ margin-right:20px;
  font-size:25px;  	
 }
 .valid input
+{ 
+font-size: 20px;
+font-weight: bold;
+background-color: #252954;
+color: white;
+transition: 1.5s;    
+}
+.valid input:hover
 {
-	border-color:blue; 
+ background:none;
+ color: #252954; 
+}
+
+
+.labar input
+{
+font-size: 23px;
+
+text-align: center; 
 }
 .icone ul {
 
@@ -68,10 +85,16 @@ margin-right:20px;
 {
  transform: rotateY(360deg);
 }
-
+.icone ul li:nth-child(1) a:hover .fa{
+	color:#3b5999; 
+}
+.icone ul li:nth-child(2) a:hover .fa{
+	color:#dd4b39; 
+}
+.icone ul li:nth-child(3) a:hover .fa{
+	color:#55acee; 
+}
 .icone ul li a 
 {font-size:19px;}
 .icone ul li a .fa{color: #fff;}
 
-.icone ul li a .fa fa-facebook 
-{color: blue;}

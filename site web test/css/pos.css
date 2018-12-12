@@ -30,6 +30,7 @@ width:1000px;
 height:70px;
 margin:auto;
 padding-top:38px;          	
+display: flex;
 }
 .labar {
 width:60%;
@@ -45,6 +46,14 @@ height:80%;
 border: 1px solid black;
 display:inline-flex; 
 }
+.valid input{border-left-width: 0px;
+	border-left-style: solid;
+	border-top-width: 0px;
+	border-top-style: solid;
+	border-right-width: 0px;
+	border-right-style: solid;
+	border-bottom-width: 0px;
+	border-bottom-style: solid}
 .menu
 {width: 900px;
 
@@ -64,11 +73,16 @@ display:inline-flex;
  padding-left:41px;
 text-align: center;       	
 }
-
+.menup ul
+{
+margin-top: 0px;
+margin-bottom: 0px;
+}
 .menup ul li 
 {
 display:inline-flex;
-margin-top:116px;  
+margin-top:116px;
+
 }
 input{
 	width: 100%;
@@ -84,7 +98,12 @@ margin-top: -12px;
 list-style:none;  	
 }
 
-
+.valid .fa
+{position: absolute;
+left: 1012px;bottom: 162px;top: 209px;
+width: 30px;
+font-size: 18px;
+color: white;}
 
 
 
