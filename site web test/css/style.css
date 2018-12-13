@@ -41,13 +41,26 @@ list-style:none;
 font-family: 'Lilita One', cursive;
 font-size: 23px;
 text-decoration: none;
-color:black;
-margin-right:20px;  
+color:grey;
+margin-right:20px;
+text-transform: uppercase;
+transition: 0.5s;  
 }
 .menup ul li a:hover
 {
  color:black;
  font-size:25px;  	
+}
+.menup ul:hover li a
+{
+transform: scale(1.5);
+opacity: .2;
+filter: blur(5px);
+}.menup ul li a:hover
+{
+transform: scale(1.5);
+opacity: 1;
+filter: blur(0px);
 }
 .valid input
 { 
@@ -75,7 +88,7 @@ text-align: center;
 	transform: translate(-50%,50%);
 }
 .icone ul li a .fa
-{
+{ ;
  position: relative;
  transition: .5s;
 
@@ -85,16 +98,16 @@ text-align: center;
 {
  transform: rotateY(360deg);
 }
-.icone ul li:nth-child(1) a:hover .fa{
+.icone ul li:nth-child(1) .fa{
 	color:#3b5999; 
 }
-.icone ul li:nth-child(2) a:hover .fa{
+.icone ul li:nth-child(2)  .fa{
 	color:#dd4b39; 
 }
-.icone ul li:nth-child(3) a:hover .fa{
+.icone ul li:nth-child(3) .fa{
 	color:#55acee; 
 }
 .icone ul li a 
 {font-size:19px;}
-.icone ul li a .fa{color: #fff;}
+
 
