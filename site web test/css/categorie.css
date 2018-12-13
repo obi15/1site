@@ -1,0 +1,87 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.container
+{
+ width:100vw;
+ height: 100vh;
+ display: flex;
+ box-sizing: border-box;	
+}
+.container .box h1
+{
+margin: 0;
+padding: 0;
+line-height: 100vh;
+font-size: 2em;
+background: rgba(0,0,0,.8);
+transition: .5s;
+}
+h1 span
+{
+ background:rgba(255,255,255,0);
+ width: 100%;
+ transition: 1s;
+ color: #fff;
+ padding: :25px 20px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ }
+ .box:hover h1 span
+ {
+ 	color: #262626;
+ 	background:rgba(255,255,255,.8);
+ 	letter-spacing: 10px;
+ 	box-shadow: 0 5px 15px rgba(0,0,0,.5)
+}
+
+.box:hover h1
+{background: rgba(0,0,0,0);}	
+
+.container .box:hover
+{width: 100vw;
+}
+
+.container .box
+{
+width:30vw;
+ height: 100vh;	
+ text-align: center;
+flex-direction: center;
+ flex-grow: 1;	
+ background-size: cover;
+ background-position: center;
+ transition: 1s;
+}
+.container .box:nth-child(1)
+{
+	background:url(../image/cat1.jpg);
+}
+.container .box:nth-child(2)
+{
+	background:url(../image/cat2.jpg);
+}
+.container .box:nth-child(3)
+{
+	background:url(../image/cat3.jpg) center ;
+}
+.container .box:nth-child(4)
+{
+	background:url(../image/cat4.jpg);
+}
+.container .box:nth-child(5)
+{
+	background:url(../image/cat5.jpg);
+}
+.container .box:nth-child(6)
+{
+	background:url(../image/cat6.jpg);
+}
+
+.container .box a{
+	text-decoration: none;
+}
